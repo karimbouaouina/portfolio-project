@@ -1,0 +1,93 @@
+*{
+    font-family: 'Avenir', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+    height: 100%;
+    width: 100%;}
+.bg-img{
+    background-image: url(../images/Portfolio\ for\ blur.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    overflow: hidden;
+}
+.btn {
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    -webkit-transition-duration: 0.3s ;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.btn2 {
+    font-family: Avenir, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1e90ff;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    -webkit-transition-duration: 0.3s ;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    margin-top: 20px;
+}
+.btn2:hover, .btn2:focus, .btn2:active{
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #fff;
+}
+.bg-over{
+    background-color: black;
+    background-color: rgba(161, 110, 0, 0);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
